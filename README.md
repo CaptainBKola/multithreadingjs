@@ -1,1 +1,2 @@
-# Simple implementation of web-workers in javascript
+# Simple implementation of multithreaded Javascript with web-workers
+
