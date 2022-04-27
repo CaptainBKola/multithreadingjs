@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <title>Web Worker: The highest prime number</title>
+   <meta charset=utf-8 />
+   </head>
+     <style>
+   #actions {
+   position: fixed;
+   top: 10px;
+   background: lightBlue; padding:8px;
+   }
+   h1 {
+   position: relative; bottom: 10px; left: 280px;
+   margin-left:82px;
+
+   }
+   #status {
+   position: relative; font-size: 120%; background: rgb(217, 221, 153);
+   padding: 20px; border-radius: 20px;
+   }
+   article {
+   position: relative; color:rgb(25, 25, 14); background: darkgray; padding: 25px;
+   }
+   input {
+   width: 100px; height: 35px; font-size: 120%;
+   }
+     </style>
+    
+   <body>
+
+     <h1>A simple web worker</h1>
+     <article>The total:
+       <output id="result"></output>
+       <div id="status"></div>
+       <div id = 'random'> </div></article>
+
+
+   <div id="actions">
+   <input type="text" name="upto" id="upto"/>
+   <button onclick="start()" title="Start the work">Start</button>
+   <button onclick="stop()" title="Stop the work and go have a drink">Stop</button>
+   <button  id = 'clickme' >click me</button>  
+ </div>
+    
+   <script src = "script.js"></script>
+   </body>
+   </html>
